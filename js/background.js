@@ -7,7 +7,5 @@ const bgImage = document.createElement("img");
 bgImage.src = `img/${chosenImage}`;
 // = <img src="">
 
-console.log(bgImage);
-
 document.body.appendChild(bgImage);
 // prepend = 가장 마지막
